@@ -1,0 +1,59 @@
+[
+  {
+    "name": "All Chiz",
+    "sizes": [
+      {
+        "small": {
+            "description": "Too Small",
+            "price": 75
+        },
+        "medium": {
+          "description": "Too Small",
+          "price": 75
+        },
+        "large": {
+          "description": "Too Small",
+          "price": 75
+        }
+      }
+    ]
+  },
+  {
+    "name": "Pepperonli",
+    "sizes": [
+      {
+        "small": {
+            "description": "Too Small",
+            "price": 99.95
+        },
+        "medium": {
+          "description": "Too Small",
+          "price": 199.9
+        },
+        "large": {
+          "description": "Too Small",
+          "price": 399.8
+        }
+      }
+    ]
+  },
+  {
+    "name": "Hawayan",
+    "sizes": [
+      {
+        "small": {
+            "description": "Too Small",
+            "price": 110.25
+        },
+        "medium": {
+          "description": "Too Small",
+          "price": 165
+        },
+        "large": {
+          "description": "Too Small",
+          "price": 441
+        }
+      }
+    ]
+  }
+]
