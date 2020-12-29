@@ -9,7 +9,7 @@ import { PizzaOrder } from '../../models/pizza-order.model';
 })
 export class PizzaOrderListComponent implements OnInit {
 
-  pizzaOrders: PizzaOrder[] = [];
+  pizzaOrders: PizzaOrder[];
   constructor(private pizzaOrderService: PizzaOrderService) { }
 
   ngOnInit(): void {
