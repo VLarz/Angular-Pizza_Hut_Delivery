@@ -12,7 +12,7 @@ export class PizzaOrderService {
 
   constructor(private http: HttpClient) { }
 
-  getPizzaOrders(): Observable<PizzaOrder> {
-    return this.http.get<PizzaOrder>(`${environment.jsonPath}/pizza-orders.json`);
+  getPizzaOrders(): Observable<PizzaOrder[]> {
+    return this.http.get<PizzaOrder[]>(`${environment.jsonPath}/pizza-orders.json`);
   }
 }
