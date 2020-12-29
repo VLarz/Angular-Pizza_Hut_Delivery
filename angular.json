@@ -28,9 +28,12 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +126,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "pizza-hut-delivery"
+    }
+  },
+  "defaultProject": "pizza-hut-delivery",
+  "cli": {
+    "analytics": "903526a4-6496-4f2f-a4e1-8d4cb9b6a68b"
+  }
 }
