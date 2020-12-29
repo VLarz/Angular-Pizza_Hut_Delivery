@@ -4,9 +4,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PizzaOrderDetailComponent } from './components/pizza/pizza-order-detail/pizza-order-detail.component';
-import { PizzaOrderListComponent } from './components/pizza/pizza-order-list/pizza-order-list.component';
-import { PizzaComponent } from './components/pizza/pizza.component';
+import { PizzaOrderDetailComponent } from './components/pizza-order/pizza-order-detail/pizza-order-detail.component';
+import { PizzaOrderListComponent } from './components/pizza-order/pizza-order-list/pizza-order-list.component';
+import { PizzaComponent } from './components/pizza-order/pizza.component';
 import { StoreModule } from '@ngrx/store';
 
 @NgModule({
